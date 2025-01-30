@@ -1,0 +1,60 @@
+<!DOCTYPE html> 
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled Boxes and Headers</title>
+
+    <style>
+        /* Remove default margin and padding */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Set the background color of the page */
+        body {
+            background-color: rebeccapurple;
+            text-align: center; /* Center text and inline-block elements */
+        }
+
+        /* h1 styling */
+        h1 {
+            width: 400px;
+            text-align: center;
+            color: white;
+            margin: 20px auto;
+        }
+
+        /* h2 styling */
+        h2 {
+            width: 800px;
+            text-align: right;
+            color: orange;
+            margin: 20px auto;
+        }
+
+        /* Box styling */
+        .box {
+            display: inline-block; /* Align boxes side by side */
+            vertical-align: top; /* Align boxes at the top */
+            margin: 10px; /* Space between boxes */
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>This is an H1 Header</h1>
+    <h2>This is an H2 Header</h2>
+
+    <div class="box" style="width: 100px; height: 100px; background-color: red;"></div>
+    <div class="box" style="width: 300px; height: 400px; background-color: blue; border: 2px solid red;"></div>
+    <div class="box" style="width: 250px; height: 600px; background-color: green;"></div>
+
+</body>
+
+</html>
+
